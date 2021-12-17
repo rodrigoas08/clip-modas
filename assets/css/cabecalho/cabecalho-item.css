@@ -1,0 +1,9 @@
+.cabecalho__item {
+    border-left: 3px solid transparent;
+    margin: 0 1.25rem;
+}
+
+.cabecalho__item:hover {
+    border-left: 3px solid orange;
+    transition: all 2s;
+}

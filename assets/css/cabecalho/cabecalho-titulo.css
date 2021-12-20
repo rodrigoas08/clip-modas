@@ -1,5 +1,6 @@
 .cabecalho__titulo {
+    align-self: center;
     color: orange;
-    font-family: 'Montserrat', cursive;
-    font-size: 1.5625rem;
+    font-size: 2em;
+    text-decoration: none;
 }

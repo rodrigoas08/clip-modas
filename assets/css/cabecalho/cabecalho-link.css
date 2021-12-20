@@ -1,5 +1,15 @@
 .cabecalho__link {
+    align-self: center;
+    border-left: 0.1875rem solid transparent;
     color: #d3d3d3;
+    margin: 0 1.25rem;
+    padding-left: 0.25rem;
     text-decoration: none;
-    margin: 0.625rem;
+}
+
+
+
+.cabecalho__link:hover {
+    border-left: 0.1875rem solid orange;
+    transition: all 2s;
 }

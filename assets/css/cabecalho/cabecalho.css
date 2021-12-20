@@ -1,9 +1,12 @@
 .cabecalho {
-    background-color: black;   
-    display: flex; 
-    justify-content: space-around;
-    padding: 1.25rem;
-    width: 100%;
+    background-color: #1c1c1c;       
+    border-bottom: 1px solid #d3d3d395;
     box-sizing: border-box;
-    position: relative;
+    display: flex; 
+    font-family: 'Montserrat', cursive;
+    font-size: 1.25rem;
+    height: 3.125rem;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
 }

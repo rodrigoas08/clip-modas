@@ -23,12 +23,8 @@
     font-size: .9375em;
     margin: 1rem 1.25rem;
     padding-left: 0.25rem;
-    text-decoration: none;
     text-align: left;
   }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown a:hover {background-color: transparent;}
   
   /* Show the dropdown menu on hover */
   .cabecalho__item--dropdown:hover .dropdown {display: block;}

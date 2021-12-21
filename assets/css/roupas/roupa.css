@@ -1,0 +1,23 @@
+.roupas {
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.roupa {
+    align-items: center;
+    background-color: lightgray;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 5px 10px;
+    width: 20%;
+}
+
+.roupa__bg {
+    border-radius: 100%;
+    width: 100%;
+}

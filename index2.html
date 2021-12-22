@@ -1,121 +1,159 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
-        <head>
-            <meta name="viewport" content="width=device-width initial-scale=1.0">
-            <meta charset="UTF-8">
-            <link rel="stylesheet" href="./assets/css/base/reset.css">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
-            <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-titulo.css">
-            <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-menu.css">
-            <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-link.css">
-            <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-link-dropdown.css">
-            <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-item.css">
-            <link rel="stylesheet" href="./assets/css/slide/slide.css">
-            <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
-            <link rel="stylesheet" href="./assets/css/roupas/roupa.css">
+<html lang="pt-br">
 
-        </head>
-        <body>
-            <header class="cabecalho">
-                <a class="cabecalho__titulo " href="#">Clip Modas</a>
-                <nav class="cabecalho__menu">
-                    <a href="#" class="cabecalho__link">Home</a>
-                    <a href="#" class="cabecalho__link">Quem sou</a>                    
-                    <div class="cabecalho__item--dropdown">
-                        <a href="#" class="cabecalho__link">Produtos</a>
-                            <div class="dropdown">
-                                <a href="#" class="cabecalho__link dropdown__link">Feminino</a>
-                                <a href="#" class="cabecalho__link dropdown__link">Masculino</a>
-                                <a href="#" class="cabecalho__link dropdown__link">Acessórios</a>
-                            </div>
-                    </div>
-                    <a href="#" class="cabecalho__link">Contato</a>
-                </nav>
-            </header>
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/base/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-titulo.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-menu.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-link.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-link-dropdown.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-item.css">
+    <link rel="stylesheet" href="./assets/css/slide/slide.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+    <link rel="stylesheet" href="./assets/css/roupas/roupa.css">
 
-            <main>
-                <div class="slideshow-container">
+</head>
 
-                    <div class="mySlides fade">
-                      <img class="banner" src="./assets/img/banner4.jpg">
-                      <div class="text">Roupas no Atacado e Varejo</div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      <img class="banner" src="./assets/img/banner3.jpg">
-                      <div class="text">Roupas no Atacado e Varejo</div>
-                    </div>
-                    
-                    
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    
-                    <br>
-                    
-                    <div class="indicadores">
-                      <span class="dot" onclick="currentSlide(1)"></span> 
-                      <span class="dot" onclick="currentSlide(2)"></span>
-                    </div>
+<body>
+    <header class="cabecalho">
+        <a class="cabecalho__titulo " href="#">Clip Modas</a>
+        <nav class="cabecalho__menu">
+            <a href="#" class="cabecalho__link">Home</a>
+            <a href="#" class="cabecalho__link">Quem sou</a>
+            <div class="cabecalho__item--dropdown">
+                <a href="#" class="cabecalho__link">Produtos</a>
+                <div class="dropdown">
+                    <a href="#" class="cabecalho__link dropdown__link">Feminino</a>
+                    <a href="#" class="cabecalho__link dropdown__link">Masculino</a>
+                    <a href="#" class="cabecalho__link dropdown__link">Acessórios</a>
                 </div>
-                <h1>Seção Masculina</h1>
-                <div class="roupas">
-                    <section class="roupa">
-                        <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
-                        <h1>Moletom Adidas</h1>
-                        <p>Preço: R$ 100,00</p>
-                    </section>
-    
-                    <section class="roupa">
-                        <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
-                        <h1>Moletom Adidas</h1>
-                        <p>Preço: R$ 100,00</p>
-                    </section>
-    
-                    <section class="roupa">
-                        <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
-                        <h1>Moletom Adidas</h1>
-                        <p>Preço: R$ 100,00</p>
-                    </section>
-    
-                    <section class="roupa">
-                        <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
-                        <h1>Moletom Adidas</h1>
-                        <p>Preço: R$ 100,00</p>
-                    </section>
+            </div>
+            <a href="#" class="cabecalho__link">Contato</a>
+        </nav>
+    </header>
 
-                    <section class="roupa">
-                        <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
-                        <h1>Moletom Adidas</h1>
-                        <p>Preço: R$ 100,00</p>
-                    </section>
+    <main>
+        <div class="slideshow-container">
 
-                    <section class="roupa">
-                        <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
-                        <h1>Moletom Adidas</h1>
-                        <p>Preço: R$ 100,00</p>
-                    </section>
+            <div class="mySlides fade">
+                <img class="banner" src="./assets/img/banner4.jpg">
+                <div class="text">Roupas no Atacado e Varejo</div>
+            </div>
 
-                    <section class="roupa">
-                        <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
-                        <h1>Moletom Adidas</h1>
-                        <p>Preço: R$ 100,00</p>
-                    </section>
+            <div class="mySlides fade">
+                <img class="banner" src="./assets/img/banner3.jpg">
+                <div class="text">Roupas no Atacado e Varejo</div>
+            </div>
 
-                    <section class="roupa">
-                        <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
-                        <h1>Moletom Adidas</h1>
-                        <p>Preço: R$ 100,00</p>
-                    </section>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <br>
+
+            <div class="indicadores">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+        <h1>Seção Masculina</h1>
+        <div class="roupas">
+            <section class="roupa">
+                <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
+                <div class="roupa__descricao">
+                    <h1>Moletom Adidas</h1>
+                    <p>Preço: R$ 100,00</p>
+                    <h1>Qtd: X</h1>
+                    <p>Tam: G</p>
                 </div>
-                
-            </main>
+            </section>
 
-            <footer class="rodape">
-                Email: email@dominio.com
-            </footer>
-            <script src="./assets/js/slide.js"></script>
-        </body>    
-    </html>
+            <section class="roupa">
+                <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
+                <div class="roupa__descricao">
+                    <h1>Moletom Adidas</h1>
+                    <p>Preço: R$ 100,00</p>
+                    <h1>Qtd: X</h1>
+                    <p>Tam: G</p>
+                </div>
+            </section>
+
+            <section class="roupa">
+                <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
+                <div class="roupa__descricao">
+                    <h1>Moletom Adidas</h1>
+                    <p>Preço: R$ 100,00</p>
+                    <h1>Qtd: X</h1>
+                    <p>Tam: G</p>
+                </div>
+            </section>
+
+            <section class="roupa">
+                <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
+                <div class="roupa__descricao">
+                    <h1>Moletom Adidas</h1>
+                    <p>Preço: R$ 100,00</p>
+                    <h1>Qtd: X</h1>
+                    <p>Tam: G</p>
+                </div>
+            </section>
+
+            <section class="roupa">
+                <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
+                <div class="roupa__descricao">
+                    <h1>Moletom Adidas</h1>
+                    <p>Preço: R$ 100,00</p>
+                    <h1>Qtd: X</h1>
+                    <p>Tam: G</p>
+                </div>
+            </section>
+
+            <section class="roupa">
+                <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
+                <div class="roupa__descricao">
+                    <h1>Moletom Adidas</h1>
+                    <p>Preço: R$ 100,00</p>
+                    <h1>Qtd: X</h1>
+                    <p>Tam: G</p>
+                </div>
+            </section>
+
+            <section class="roupa">
+                <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
+                <div class="roupa__descricao">
+                    <h1>Moletom Adidas</h1>
+                    <p>Preço: R$ 100,00</p>
+                    <h1>Qtd: X</h1>
+                    <p>Tam: G</p>
+                </div>
+            </section>
+
+            <section class="roupa">
+                <img class="roupa__bg" src="./assets/img/banner_cm.jpg">
+                <div class="roupa__descricao">
+                    <h1>Moletom Adidas</h1>
+                    <p>Preço: R$ 100,00</p>
+                    <h1>Qtd: X</h1>
+                    <p>Tam: G</p>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        Email: email@dominio.com
+    </footer>
+    <script src="./assets/js/slide.js"></script>
+</body>
+
+</html>

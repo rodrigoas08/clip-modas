@@ -16,12 +16,11 @@
     flex-direction: column;
     height: auto;
     margin: 20px 10px;
-    padding-bottom: 5px;
+    padding: 5px;
     width: 20%;
 }
 
 .roupa__bg {
-    padding-top: 5px;
     width: 95%;
 }
 

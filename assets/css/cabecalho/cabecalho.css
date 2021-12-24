@@ -1,6 +1,6 @@
 .cabecalho {
-    background-color: #1c1c1c;       
-    border-bottom: 1px solid #d3d3d395;
+    background-color: #34af23;       
+    border-bottom: 1px solid #ffffff;
     box-sizing: border-box;
     display: flex; 
     font-family: 'Montserrat', cursive;
@@ -8,5 +8,7 @@
     height: 3.125rem;
     justify-content: space-around;
     padding: 1rem;
+    position: fixed;
+    z-index: 1;
     width: 100%;
 }

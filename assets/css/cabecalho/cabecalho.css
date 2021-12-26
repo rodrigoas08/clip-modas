@@ -1,14 +1,15 @@
 .cabecalho {
+    align-items: center;
     background-color: #34af23;       
     border-bottom: 1px solid #ffffff;
     box-sizing: border-box;
     display: flex; 
-    font-family: 'Montserrat', cursive;
+    font-family: 'Roboto', cursive;
     font-size: 1.25rem;
     height: 3.125rem;
     justify-content: space-around;
     padding: 1rem;
     position: fixed;
-    z-index: 1;
     width: 100%;
+    z-index: 1;
 }
